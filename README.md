@@ -5,7 +5,7 @@ DeepPCB: a dataset contains 1,500 image pairs, each of which consists of a defec
 ### Image Collection
 All the images in this dataset is obtained from a linear scan CCD in resolution around 48 pixels per 1 millimetre. The defect-free template image is manually checked and cleaned from a sampled image in the above manner. The original size of the template and tested image is around 16k x 16k pixels. Then they are clipped into sub-images with size of 640 x 640 and aligned through template matching techniques. Next, a threshold is carefully selected to employ binarization to avoid illumination disturbance. Notice that pre-processing algorithms can be various according to the specific PCB defect detection algorithms, however, the image registration and thresholding techniques are common process for high-accuracy PCB defect localization and classification. An example pair in DeepPCB dataset is illustrated in the following figure, where the top one is the defect-free template image and the bottom one is the defective tested image with the ground truth annotations.
 ![example_test](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg)
-![example_template](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/tempate.jpg)
+![example_template](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg)
 
 ### Image Annotation
 We use the axis-aligned bounding box with a class ID for each defect in the tested images. As illustrated in the above, we annotate six common types of PCB defects: open, short, mousebite, spur, pin hole and spurious copper. Since there is only a few defect in the real tested image, we manually argument some artificial defects on each tested image according to the PCB defect patterns, which leads to around 3 to 12 defects in each 640 x 640 image. The number of PCB defects is shown in the following figure. We separate 1,000 images as training set and the remains as testing set.
@@ -24,11 +24,11 @@ Result pair 1:
 ![test_result1](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test1.jpg)
 ![template_result1](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp1.jpg)
 Result pair 2:
-![test_result2](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_test2.jpg)
-![template_result2](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_temp2.jpg)
+![test_result2](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test2.jpg)
+![template_result2](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp2.jpg)
 Result pair 3:
-![test_result3](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_test3.jpg)
-![template_result3](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_temp3.jpg)
+![test_result3](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test3.jpg)
+![template_result3](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp3.jpg)
 Result pair 4:
-![test_result4](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_test4.jpg)
-![template_result4](https://github.com/tangsanli5201/DeepPCB/tree/master/fig/result/result_temp4.jpg)
+![test_result4](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test4.jpg)
+![template_result4](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp4.jpg)
