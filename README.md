@@ -8,9 +8,9 @@ All the images in this dataset is obtained from a linear scan CCD in resolution 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg" width="375" style="margin:20"> 
  </div>
-
-![example_test](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg)
-![example_template](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg)
+<div align=center>
+ an example of tested image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; corresponding template image
+ </div>
 
 ### Image Annotation
 We use the axis-aligned bounding box with a class ID for each defect in the tested images. As illustrated in the above, we annotate six common types of PCB defects: open, short, mousebite, spur, pin hole and spurious copper. Since there is only a few defect in the real tested image, we manually argument some artificial defects on each tested image according to the PCB defect patterns, which leads to around 3 to 12 defects in each 640 x 640 image. The number of PCB defects is shown in the following figure. We separate 1,000 images as training set and the remains as testing set.
