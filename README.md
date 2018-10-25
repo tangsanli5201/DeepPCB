@@ -49,3 +49,6 @@ Result pair 2:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp4.jpg" width="375" style="margin:20"> 
  </div>
+
+#### Notice
+This work is contributed by paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**.
