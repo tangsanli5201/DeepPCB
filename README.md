@@ -4,8 +4,8 @@ DeepPCB: a dataset contains 1,500 image pairs, each of which consists of a defec
 ## Dataset Description
 ### Image Collection
 All the images in this dataset is obtained from a linear scan CCD in resolution around 48 pixels per 1 millimetre. The defect-free template image is manually checked and cleaned from a sampled image in the above manner. The original size of the template and tested image is around 16k x 16k pixels. Then they are clipped into sub-images with size of 640 x 640 and aligned through template matching techniques. Next, a threshold is carefully selected to employ binarization to avoid illumination disturbance. Notice that pre-processing algorithms can be various according to the specific PCB defect detection algorithms, however, the image registration and thresholding techniques are common process for high-accuracy PCB defect localization and classification. An example pair in DeepPCB dataset is illustrated in the following figure, where the top one is the defect-free template image and the bottom one is the defective tested image with the ground truth annotations.
-<div align=center><div margin="2"><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg" width="375"></div>
-<div margin="2"><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg" width="375"></div>
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg" width="375" style="margin-right:20px">
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg" width="375">
  </div>
 
 ![example_test](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/test.jpg)
