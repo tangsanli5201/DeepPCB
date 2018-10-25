@@ -17,7 +17,7 @@ All the images in this dataset is obtained from a linear scan CCD in resolution 
 ### Image Annotation
 We use the axis-aligned bounding box with a class ID for each defect in the tested images. As illustrated in the above, we annotate six common types of PCB defects: open, short, mousebite, spur, pin hole and spurious copper. Since there is only a few defect in the real tested image, we manually argument some artificial defects on each tested image according to the PCB defect patterns, which leads to around 3 to 12 defects in each 640 x 640 image. The number of PCB defects is shown in the following figure. We separate 1,000 images as training set and the remains as testing set.
 <div align=center>
-<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/CountPCB.png" width="375"> 
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/CountPCB.png" width="560"> 
  </div>
  
 ### Benchmarks
@@ -30,14 +30,22 @@ This section with the source code will be public after the acceptance of the pap
 Here we show some results of our model based on deep neural network. Our model achieves mAP of 96.5%, 97.2% F-score @ 62FPS. More statistic analysis will be public after the acceptance of the paper. The green bounding box is the predicted location of the PCB defect with the confidence on the top of each.
 
 Result pair 1:
-![test_result1](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test1.jpg)
-![template_result1](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp1.jpg)
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test1.jpg" width="375" style="margin:20">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp1.jpg" width="375" style="margin:20"> 
+ </div>
 Result pair 2:
-![test_result2](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test2.jpg)
-![template_result2](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp2.jpg)
-Result pair 3:
-![test_result3](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test3.jpg)
-![template_result3](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp3.jpg)
-Result pair 4:
-![test_result4](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test4.jpg)
-![template_result4](https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp4.jpg)
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test2.jpg" width="375" style="margin:20">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp2.jpg" width="375" style="margin:20"> 
+ </div>
+ Result pair 3:
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test3.jpg" width="375" style="margin:20">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp3.jpg" width="375" style="margin:20"> 
+ </div>
+ Result pair 4:
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_test4.jpg" width="375" style="margin:20">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/result/result_temp4.jpg" width="375" style="margin:20"> 
+ </div>
