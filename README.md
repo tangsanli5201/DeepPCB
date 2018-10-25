@@ -51,4 +51,4 @@ Result pair 2:
  </div>
 
 #### Notice
-This work is contributed by paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**.
+This work is contributed by the paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**.
