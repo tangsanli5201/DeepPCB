@@ -9,7 +9,7 @@ All the images in this dataset is obtained from a linear scan CCD in resolution 
 <img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/template.jpg" width="375" style="margin:20"> 
  </div>
 <div align=center>
- an example of tested image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; corresponding template image
+ an example of tested image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; corresponding template image
  </div>
 
 ### Image Annotation
