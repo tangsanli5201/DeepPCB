@@ -25,9 +25,15 @@ The average precision rate and F-score are used for evaluation. A detection is c
 
 The evaluation script for mAP and F-score are borrowed from [Icdar2015 evaluation scripts](http://rrc.cvc.uab.es/?ch=4&com=mymethods&task=1) with small modification. (You may first register an account.) Here, we give the modified evaluation scripts and the ground truth _gt.zip_ file of the test set in _evaluation/_ directory. You can evaluate your own method by following instructions:
 * run your algorithm and save the detect result for each image named as *image_name.txt*. You should follow the format of *evaluation/gt.zip* except that each defect description should be:
+<<<<<<< HEAD
 			*x1,y1,x2,y2,confidence,type*, where *(x1,y1)* and *(x2,y2)* is the top left and the bottom right corner of the bounding box of the defect. *confidence* is a float number to show how confident you believe such detection result. *type* is a string and should be one of the following: *open,short,mousebite,spur,copper,pin-hole*. Notice there is no space except the comma.
 * zip your *txt* file to *res.zip*. 
 * run the evaluation scrip python script.py -s=res.zip -g=gt.zip
+=======
+			 *x1,y1,x2,y2,confidence,type* , where *(x1,y1)* and *(x2,y2)* is the top left and the bottom right corner of the bounding box of the defect. *confidence* is a float number to show how confident you believe such detection result. *type* is a string and should be one of the following: *open,short,mousebite,spur,copper,pin-hole*. Notice there is no space except the comma.
+* zip your *.txt* file to *res.zip*. 
+* run the evaluation script *python script.py -s=res.zip -g=gt.zip*
+>>>>>>> 76e52e888dfc0a7fb928c55208f66ad550554390
 
 ## Approach
 This section with the source code will be public after the acceptance of the paper.
@@ -57,4 +63,8 @@ Result pair 2:
  </div>
 
 #### Notification
+<<<<<<< HEAD
 This work is contributed by the paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**.
+=======
+This work is contributed by the paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**.
+>>>>>>> 76e52e888dfc0a7fb928c55208f66ad550554390
