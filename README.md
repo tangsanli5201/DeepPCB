@@ -16,6 +16,7 @@ All the images in this dataset are obtained from a linear scan CCD in resolution
 
 ### Image Annotation
 We use the axis-aligned bounding box with a class ID for each defect in the tested images. As illustrated in the above, we annotate six common types of PCB defects: open, short, mousebite, spur, pin hole and spurious copper. Since there is only a few defects in the real tested image, we manually argument some artificial defects on each tested image according to the PCB defect patterns, which leads to around 3 to 12 defects in each 640 x 640 image. The number of PCB defects is shown in the following figure. We separate 1,000 images as training set and the remains as test set.
+Each annotated image owns an annotation file with the same filename, e.g.**_00041000_test.jpg_**, **_00041000_temp.jpg_** and **_00041000.txt_** are the tested image, template image and the corresponding annotation file. Each defect on the tested image are annotated as the format:**_x1,y1,x2,y2,type_** , where **_(x1,y1)_** and **_(x2,y2)_** is the top left and the bottom right corner of the bounding box of the defect. **_type_** is an integer ID that follows the matches: **_1-open,2-short,3-mousebite,4-spur,5-copper,6-pin-hole_**.
 <div align=center>
 <img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/CountPCB.png" width="560"> 
  </div>
