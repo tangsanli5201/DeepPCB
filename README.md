@@ -57,5 +57,5 @@ Result pair 2:
  </div>
 
 #### Notification
-This work is contributed by the paper **_An Efficient and Acurrate Detector for Online PCB Defect Detection_**. You can only use this dataset for research purpose.
+This work is contributed by the paper **_On-line PCB Defect Detector On A New PCB Defect Dataset_**. You can only use this dataset for research purpose.
 
