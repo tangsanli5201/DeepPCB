@@ -59,4 +59,9 @@ Result pair 2:
  </div>
 
 #### Notification
+<<<<<<< HEAD
 This work is contributed by the paper **_On-line PCB Defect Detector On A New PCB Defect Dataset_**. You can only use this dataset for research purpose.
+=======
+This work is contributed by the paper **_On-line PCB Defect Detector On A New PCB Defect Dataset_**. You can only use this dataset for research purpose.
+
+>>>>>>> 12e05663bd8f5568c9274719040d4aeda9ce124a
