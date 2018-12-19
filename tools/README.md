@@ -1,6 +1,6 @@
 # PCB Annotation Tool
 This is the annotation tool for efficiently annotating PCB defect on the tested images. You can add annotation of existed defects or manually create new defect with the help of this tool.
-<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/tools/PCBAnnotationSoftware.png" width="375" style="margin:20"></div>
+<div align=center><img src="https://github.com/tangsanli5201/DeepPCB/blob/master/fig/tools/PCBAnnotationSoftware.png" width="600" style="margin:20"></div>
 ## Environment
 Qt 5.4.1
 Windows 10
